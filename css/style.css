@@ -58,15 +58,13 @@ h1 {
 
 .lower-section {
     display: flex;
-    justify-content: space-between;
     padding: 0 100px;
 }
 
 .lower-left-section {
     display: flex;
     flex-direction: column;
-    width: 236px;
-    margin-right: 50px;
+    width: 20%;
 }
 
 .discover-p {
@@ -94,7 +92,7 @@ h2 {
 }
 
 .lower-right-section {
-    width: 1000px;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -125,4 +123,6 @@ h3 {
     margin-right: 10px;
 }
 
-
+.fa-bars {
+    display: none !important;
+}
